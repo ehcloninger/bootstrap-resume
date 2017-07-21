@@ -13,13 +13,15 @@ body {
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 60px;
+  height: 70px;
   color: #ccc;
   background-color: #477567;
 }
 
 .footer-text {
   color: #ccc;
+  line-height: 80%;
+  font-size: small;
 }
 
 .footer-text > a:link {

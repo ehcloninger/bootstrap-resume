@@ -16,22 +16,16 @@ document.write(
 "			<ul class='nav navbar-nav'>" +
 "				<li> <a href='#cover'> Cover Letter </a> </li>" +
 "				<li> <a href='#experience'> Experience </a> </li>" +
-"				<li> <a href='#skills'> Skills </a> </li>" +
 "				<li> <a href='#communications'> Communications </a> </li>" +
-"				<li class='dropdown'> <a href='#' class='dropdown-toggle' data-toggle='dropdown' role='button' aria-haspopup='true' aria-expanded='false'> Community <span class='caret'> </span> </a> " +
-"				<ul class='dropdown-menu'>" +
-"					<li> <a href='#android'> Android </a> </li>" +
-"					<li> <a href='#eclipse'> Eclipse </a> </li>" +
-"					<li> <a href='#local'> Local </a> </li>" +
-"				</ul>" +
-"				</li>" +
+"				<li> <a href='#skills'> Skills </a> </li>" +
+"				<li> <a href='#community'> Community </a> </li>" +
 "			</ul>" +
 "			<ul class='nav navbar-nav navbar-right'>" +
-"				<li> <a href='http://www.linkedin.com/in/ericcloninger/' target='_blank'> <i class='fa fa-linkedin-square'> </i> </a> </li>" +
-"				<li> <a href='http://twitter.com/ericc' target='_blank'> <i class='fa fa-twitter-square'> </i> </a> </li>" +
-"				<li> <a href='https://github.com/ehcloninger' target='_blank'> <i class='fa fa-github-alt'> </i> </a> </li>" +
-"				<li> <a href='http://stackoverflow.com/users/296758/eric-cloninger' target='_blank'> <i class='fa fa-stack-overflow'> </i> </a> </li>" +
-"				<li> <a href='mailto:&#101;&#114;&#105;&#99;&#99;&#64;&#112;&#111;&#98;&#111;&#120;&#46;&#99;&#111;&#109;'> <i class='fa fa-envelope-o'> </i> </a> </li>" +
+"				<li> <a href='http://www.linkedin.com/in/ericcloninger/' target='_blank'> <i class='fa fa-linkedin-square fa-lg'> </i> </a> </li>" +
+"				<li> <a href='http://twitter.com/ericc' target='_blank'> <i class='fa fa-twitter-square fa-lg'> </i> </a> </li>" +
+"				<li> <a href='https://github.com/ehcloninger' target='_blank'> <i class='fa fa-github-alt fa-lg'> </i> </a> </li>" +
+"				<li> <a href='http://stackoverflow.com/users/296758/eric-cloninger' target='_blank'> <i class='fa fa-stack-overflow fa-lg'> </i> </a> </li>" +
+"				<li> <a href='mailto:&#101;&#114;&#105;&#99;&#99;&#64;&#112;&#111;&#98;&#111;&#120;&#46;&#99;&#111;&#109;'> <i class='fa fa-envelope-o fa-lg'> </i> </a> </li>" +
 "			</ul>" +
 "		</div>" +
 "	</div>" +
