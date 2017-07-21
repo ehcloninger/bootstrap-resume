@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Interactive Resume">
+	<meta name="author" content="Eric Cloninger">
+	<link rel="shortcut icon" href="../../content/assets/star.png">
+	<title>MOTODEV Studio 2.0.1 update and installers now available</title>
+<!-- Bootstrap core CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="https://use.fontawesome.com/44784248a0.js">
+	</script>
+	<link href="../../css/resume.css" rel="stylesheet">
+	</link>
+	<link href="css/posts.css" rel="stylesheet">
+	</link>
+	<link href="css/posts.css" rel="stylesheet">
+	</link>
+</head>
+<body>
+<div id="header">
+<!-- header -->
+	<script type="text/javascript" src="js/header.js">
+	</script>
+</div>
+<div class="container">
+	<h2>
+		MOTODEV Studio 2.0.1 update and installers now available 
+	</h2>
+	<p class="boundbox">
+		<strong>NOTE: </strong>This blog post was originally hosted on Motorola's MOTODEV web site. That site was decommissioned in 2012. I've made every attempt to preserve blog posts and accompanying forum posts with their original content. Many web links are no longer valid, so they have been removed and replaced with <em>emphasized</em> text. 
+	</p>
+	<p>
+		<strong>by Eric Cloninger (EricC)</strong> 
+	</p>
+	<p>
+		Hello everyone, 
+	</p>
+	<p>
+		We hope 2010 has been a very good year for you. 2011 certainly looks to be very interesting for Android developers and we're excited to be bringing you new tools. 
+	</p>
+	<p>
+		Google released the Gingerbread SDK on Dec. 6 along with a new set of Eclipse plugins (ADT). We've been working to release a MOTODEV Studio update that will work with that combination. The testing took longer than we thought because ADT must be updated at the same time as the SDK. In previous releases, some combinations of ADT and SDK would work, but not this time. You must use ADT 8.0 (or later) with the Gingerbread SDK. That is the only allowed combination. 
+	</p>
+	<p>
+		Normally, we would dedicate a full release cycle to getting this much functionality out to users, but we know that everyone is excited to start developing with Gingerbread. So, please read this post carefully and let it help guide you to the new tools. 
+	</p>
+	<h4>
+		Irrational Numbers 
+	</h4>
+	<p>
+		There are several version numbers that you need to be aware of. 
+	</p>
+	<p>
+		<strong>SDK Tools:</strong> These are the compiler, post-linker, and debug support tools that get released at <a rel="nofollow" target="_blank" href="http://developer.android.com/sdk/index.html">The Android Developer site.</a> These are usually labeled r&lt;<em><strong>X</strong></em>, where <em><strong>X</strong></em> is an integer. The tools are often released at the same time as a platform SDK, but not always. The current release of tools, released with Gingerbread, is <em><strong>r8</strong></em>. 
+	</p>
+	<p>
+		<strong>ADT:</strong> Previously, the Google ADT plugins for Eclipse had version numbers such as 0.94, 0.98, etc. With this release, Google is versioning the plugins the same as the tools release. So the new versions of ADT will have numbers of 8.0, 8.0.1, 9.0 etc. The current official version of ADT is <em><strong>8.0.1</strong></em>. This is what you should be using for your development. There is an expirmental version of ADT 9.0 available, but we have not yet tested it for use with MOTODEV Studio. 
+	</p>
+	<p>
+		<strong>Platform SDK:</strong> This package contains the libraries used by the version of the OS that your are targeting. The Gingerbread platform version is <em><strong>2.3</strong></em>, Froyo is 2.2, etc. You can have multiple versions of the platform inside your SDK installation and you can have different apps targeting different versions of the platform using the same version of the tools. This is by design and that's a <em>Good Thing</em>. 
+	</p>
+	<p>
+		<strong>MOTODEV Studio:</strong> MOTODEV Studio 2.0.0 uses ADT 0.99 and SDK tools r7 to build apps for Froyo (Platform 2.2) and earlier. MOTODEV Studio <em><strong>2.0.1</strong></em> is the subject of this release and it uses ADT 8.0.1 and SDK tools r8 to build apps for Gingerbread (Platform 2.3) and earlier. MOTODEV Studio 2.1 is in development and should be released in January 2011. 
+	</p>
+	<h4>
+		Preliminary 
+	</h4>
+	<p>
+		For this update, I'm going to advise that you use the Google SDK download tool. Install the SDK tools and platforms in a separate location from your existing SDK and tools. Keep the Froyo SDK and tools around until you are certain that the Gingerbread tools are working. Especially if you have AVDs (emulator images) with a lot of effort in them. You can get the SDK download tool from the <a rel="nofollow" target="_blank" href="http://developer.android.com/sdk/index.html">Android developer site</a> . 
+	</p>
+	<p>
+		We didn't find any problems with workspaces. But, it's never a bad practice to back up your code and workspace periodically. 
+	</p>
+	<p>
+		If you aren't taking advantage of specific functionality in Gingerbread, you can hold off with this release until MOTODEV Studio 2.1 is available next month. There are a lot of changes taking place with the SDK and platform tools and these will all get integrated into MOTODEV Studio 2.1 as a single package. 
+	</p>
+	<h4>
+		The Big Easy 
+	</h4>
+	<p>
+		The easiest way to get MOTODEV Studio 2.0.1 is to just download the full 2.0.1 installer from the <em>MOTODEV Studio page</em> . Just uninstall version 2.0.0 and reinstall version 2.0.1. After the download is completed, this takes about 5 minutes. After which you will be up to your elbows in Gingerbread. 
+	</p>
+	<h4>
+		The not-quite-so Big Easy 
+	</h4>
+	<p>
+		You can update MOTODEV Studio to version 2.0.1 using the online updater. It's easy to invoke, just choose <em>Check for Updates</em> from the <em>Help</em> menu and follow the instructions. 
+	</p>
+	<p>
+		<img title="studio_201_installupdate-0.jpg" alt="studio_201_installupdate-0.jpg" src="./assets/MOTODEV-Studio-2.0.1-update-and-installers-now-available/original(1).jpg"> 
+	</p>
+	<p>
+		This is where our testing problems occur--mostly due to network timeouts. Because updates are coming from 3 different sources (Motorola, Google, and Eclipse.org), the problems could be at any of these places or any place between your computer and those sites. The network problems have been sporadic and we don't have a conclusive thing to point at as the source of all the problems. 
+	</p>
+	<p>
+		Minimally, this process will take about 10 minutes. Even on a good network connection. 
+	</p>
+	<p>
+		If you get errors with the update mechanism, the workaround that we were able to isolate was: 
+	</p>
+	<ol>
+		<li>Go into the preferences panel</li>
+		<li>Choose <em>Install/Update</em></li>
+		<li>Choose <em>Available Software sites</em></li>
+		<li>From the list of sites, sort by location</li>
+		<li>Delete or disable any locations that aren't using HTTPS as the protocol</li>
+		<li>Leave the preferences</li>
+		<li>Go back to <em>Check for Updates</em> from the <em>Help</em> menu and follow the instructions</li>
+		<li>After the process is completed successfully, you will be instructed to restart MOTODEV Studio.</li>
+	</ol>
+	<p>
+		<strong>OR</strong> 
+	</p>
+	<p>
+		Download and install the <em>full install package</em> mentioned above in <strong><em>The Big Easy</em></strong>. 
+	</p>
+	<p>
+		<img title="studio_201_installupdate-1.jpg" alt="studio_201_installupdate-1.jpg" src="./assets/MOTODEV-Studio-2.0.1-update-and-installers-now-available/original(2).jpg"> 
+	</p>
+	<p>
+		If this still does not work for you, go back to the <em>Available Software Sites</em> and choose each of the HTTPS connections and press the <em>Reload</em> button. 
+	</p>
+	<h4>
+		The other not-quite-so Big Easy 
+	</h4>
+	<p>
+		If you want to avoid possible network problems with the update site, then you can choose to update MOTODEV Studio using a single archive file. This archive is 125MB and can be found <em>on the download site</em> (under <em>Eclipse Plug-in Version</em>; ignore the bit about <em>Requires an existing Eclipse environment</em>). Locate the link for Eclipse Helios and download the file to your computer. 
+	</p>
+	<p>
+		To install the 2.0.1 update from this file: 
+	</p>
+	<ol>
+		<li>Go into the preferences panel</li>
+		<li>Choose <em>Install/Update</em></li>
+		<li>Choose <em>Available Software sites</em></li>
+		<li>Make sure that none of the update sites have a checkbox next to their name</li>
+		<li>Press the <em>Add</em> button</li>
+		<li>Give the new update site a name, such as <em>MDS201</em></li>
+		<li>Press the <em>Archive</em> button</li>
+		<li>Use the file navigation dialog to find the .zip file that you just downloaded</li>
+		<li>Press <em>OK</em></li>
+		<li>Exit the preferences panel</li>
+		<li>Go to <em>Check for updates</em> from the <em>Help</em> menu</li>
+		<li>There should be a total of 6 packages to update. 3 are labeled <em>MOTODEV Studio</em> and 3 are labeled <em>Sequoyah</em>. You want all of these updated.</li>
+		<li>Press <em>Next</em> several times to get through the installer. You will be prompted about installing unsigned content. These warnings are a result of the Google plugins, which we have no control over. If you trust these plugins, choose <em>Accept</em>.</li>
+		<li>After a few moments, the process is completed and you will be instructed to restart MOTODEV Studio.</li>
+	</ol>
+	<p>
+		<img title="studio_201_installupdate-2.jpg" alt="studio_201_installupdate-2.jpg" src="./assets/MOTODEV-Studio-2.0.1-update-and-installers-now-available/original(3).jpg"> 
+	</p>
+	<h4>
+		Almost Home 
+	</h4>
+	<p>
+		At this point, you will need to switch the SDK from R7 (Froyo) to R8 (Gingerbread). Both MOTODEV Studio and the Google plugins recognize this is a problem and will put up dialog boxes. Using the MOTODEV Studio dialog, locate the new SDK and choose it. Dismiss both dialogs with <em>OK</em>. 
+	</p>
+	<p>
+		<img title="studio_201_installupdate-3.jpg" alt="studio_201_installupdate-3.jpg" src="./assets/MOTODEV-Studio-2.0.1-update-and-installers-now-available/original(4).jpg"> 
+	</p>
+	<p>
+		After a few seconds, you should be in MOTODEV Studio 2.0.1. To verify that everything worked, simply choose <em>Help-&gt;About MOTODEV Studio for Android</em>. The about box should clearly show the version number. 
+	</p>
+	<p>
+		<img title="studio_201_installupdate-4.jpg" alt="studio_201_installupdate-4.jpg" src="./assets/MOTODEV-Studio-2.0.1-update-and-installers-now-available/original(5).jpg"> 
+	</p>
+	<p>
+		You're done! Now, get out there and write some awesome apps! 
+	</p>
+	<h4>
+		&lt;audio src="sound-of-head-hitting-desk.mp3" /&gt; 
+	</h4>
+	<p>
+		If the updates still do not work, please choose <em>Help-&gt;Collect Log Files</em>. Then, let us know on the <em>MOTODEV Studio Discussion Boards</em> . 
+	</p>
+	<p>
+		Thank you for using MOTODEV Studio. 
+	</p>
+	<p>
+		Eric 
+	</p>
+</div>
+<!-- container -->
+<footer class="footer">
+	<div class="container" id="footer-container">
+		<script type="text/javascript" src="js/footer.js">
+		</script>
+	</div>
+</footer>
+<script src="https://code.jquery.com/jquery-1.11.3.js">
+</script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+</script>
+</body>
+</html>

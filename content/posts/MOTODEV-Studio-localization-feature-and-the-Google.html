@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Interactive Resume">
+	<meta name="author" content="Eric Cloninger">
+	<link rel="shortcut icon" href="../../content/assets/star.png">
+	<title>MOTODEV Studio localization feature and the Google Translate API</title>
+<!-- Bootstrap core CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="https://use.fontawesome.com/44784248a0.js">
+	</script>
+	<link href="../../css/resume.css" rel="stylesheet">
+	</link>
+	<link href="css/posts.css" rel="stylesheet">
+	</link>
+	<link href="css/posts.css" rel="stylesheet">
+	</link>
+</head>
+<body>
+<div id="header">
+<!-- header -->
+	<script type="text/javascript" src="js/header.js">
+	</script>
+</div>
+<div class="container">
+	<h2>
+		MOTODEV Studio localization feature and the Google Translate API 
+	</h2>
+	<p class="boundbox">
+		<strong>NOTE: </strong>This blog post was originally hosted on Motorola's MOTODEV web site. That site was decommissioned in 2012. I've made every attempt to preserve blog posts and accompanying forum posts with their original content. Many web links are no longer valid, so they have been removed and replaced with <em>emphasized</em> text. 
+	</p>
+	<p>
+		<strong>by Eric Cloninger (EricC)</strong> 
+	</p>
+	<p>
+		Hello everyone, 
+	</p>
+	<p>
+		Earlier this week, Google announced that they were deprecating the Google Translate APIs, effective immediately. I want to take a moment to explain what this means to MOTODEV Studio users. 
+	</p>
+	<p>
+		The announcement is short on details about how the deprecation will occur. It mentions that there will be a limitation on the number of translations per day, but it isn't clear if this limitation is "per IP address", "per API key", or some other factor. No mention is made of what the limit entails. We're doing some investigations to test what these conditions are. If it is the former, then you will need to exercise some restraint on the system, but the impact will be local to each user. 
+	</p>
+	<p>
+		If the limitation is "per API key", then some measures will have to be taken because all MOTODEV Studio users share the same API key, which is stored within MOTODEV Studio itself. We were already planning to refactor this data value out so you could use your own API keys, and this change will find it's way into an update in the near future. Regardless, this is a short-term fix, as the translate API will go completely offline later this year. 
+	</p>
+	<p>
+		When we created the localization files editor, we always knew we wanted to have multiple translation providers and this is evident by looking in the translate dialog. There is a popup that could be filled with other providers because this functionality is encapsulated into its' own plugin. We have started the process of evaluating other providers and if we can locate a good alternative, it will be included in a release later in the year. 
+	</p>
+	<p>
+		For the short term, keep using the translate feature as it exists. If you run into a problem with it, please let us know by responding to this thread. That way we can work together for a better experience for all. 
+	</p>
+	<p>
+		Thanks (again) for using MOTODEV Studio. 
+	</p>
+	<p>
+		-E 
+	</p>
+	<p>
+		http://code.google.com/apis/language/translate/overview.html 
+	</p>
+</div>
+<!-- container -->
+<footer class="footer">
+	<div class="container" id="footer-container">
+		<script type="text/javascript" src="js/footer.js">
+		</script>
+	</div>
+</footer>
+<script src="https://code.jquery.com/jquery-1.11.3.js">
+</script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+</script>
+</body>
+</html>

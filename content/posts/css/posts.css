@@ -1,0 +1,34 @@
+img {
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+
+.dont-scale {
+    display: block;
+    margin: auto;
+    width: auto;
+}
+
+.float-left {
+	float: left; 
+	margin: 10px;
+}
+
+.float-right {
+	float: right; 
+	margin: 10px;
+}
+
+em
+{
+	color:#0000c0;
+}
+
+.boundbox
+{
+	border-style:solid;
+	border-color:#c0c0c0;
+	padding:10px;
+	background-color:#e0e0e0
+}
