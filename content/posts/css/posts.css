@@ -13,11 +13,13 @@ img {
 .float-left {
 	float: left; 
 	margin: 10px;
+	width: 25%;
 }
 
 .float-right {
 	float: right; 
 	margin: 10px;
+	width: 25%;
 }
 
 em

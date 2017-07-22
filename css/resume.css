@@ -38,6 +38,26 @@ body {
     transform: translateY(-50%);
 } 
 
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+#biophoto
+{
+    border: 2px solid #999;
+    border-radius: 10px;
+    padding: 20px; 
+}
+
+#biophoto-main
+{
+    border-radius: 50%;
+    padding: 20px; 
+/*    width: 250px; */
+}
+
 .navbar-default {
   background-color: #477567;
   border-color: #333;

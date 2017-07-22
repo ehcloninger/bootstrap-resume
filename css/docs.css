@@ -216,9 +216,15 @@ h4 code {
 }
 
 /* Masthead (headings and download button) */
-.bs-docs-masthead .bs-docs-booticon {
+.bs-docs-masthead {
   margin: 0 auto 30px;
 }
+
+/* Masthead (headings and download button) */
+.bs-docs-booticon {
+  margin: 50px auto 50px;
+}
+
 .bs-docs-masthead h1 {
   font-weight: 300;
   line-height: 1;
