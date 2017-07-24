@@ -31,16 +31,20 @@
 	</script>
 </div>
 <!-- Begin page content -->
-<main class="bs-docs-masthead" height="800px" id="masthead" tabindex="-1">
+<main class="bs-docs-masthead"  style="margin: 25px 0 0 0" height="800px" id="masthead" tabindex="-1">
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-4 col-md-4 col-lg-4 vcenter">
-				<img id="biophoto-main" src="content/assets/ec.jpg" srcset="content/assets/ec-md.jpg 180px, content/assets/ec-sm.jpg 120px, content/assets/ec-xs.jpg 90px">
+				<img id="biophoto-main" 
+					srcset="content/assets/ec-xs.jpg 90w, content/assets/ec-sm.jpg 120w, content/assets/ec-md.jpg 180w, content/assets/ec.jpg 320w"
+					sizes="(max-width: 480px) 90px, (max-width: 768px) 120px, (max-width: 992px) 180px, 320px"
+					src="content/assets/ec.jpg" 
+					>
 			</div>
 			<div class="col-xs-7 col-md-7 col-lg-7 vcenter">
 				<p class="lead">Are you looking for an effective Product Manager, Platform Evangelist, Technical Writer, Software Developer, or Engineering Team Lead?</p>
 				<p class="lead">
-				<a href="content/Eric_Cloninger_Resume.pdf" class="btn btn-outline-inverse btn-lg" target='_blank'>Download Résumé</a>
+				<a href="content/Eric_Cloninger_Resume.pdf" class="btn btn-outline-inverse btn-lg" target='_blank'><i class="fa fa-download"></i>&nbsp;Résumé</a>
 				</p>
 				<p >Continue scrolling for interactive résumé</p>
 				</div>
